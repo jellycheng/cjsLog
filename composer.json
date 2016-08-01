@@ -1,0 +1,26 @@
+{
+  "name": "cjs/log",
+  "description": "The cjs Log package.",
+  "license": "MIT",
+  "homepage": "http://www.qianguopai.com",
+  "authors": [
+    {
+      "name": "jelly",
+      "email": "42282367@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "monolog/monolog": "~1.11"
+  },
+  "autoload": {
+    "classmap": [
+
+    ],
+    "files": [
+    ],
+    "psr-4": {
+      "CjsLog\\": ""
+    }
+  }
+}
